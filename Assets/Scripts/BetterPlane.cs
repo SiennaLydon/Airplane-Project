@@ -7,7 +7,6 @@ public class BetterPlane : MonoBehaviour
 {
     Rigidbody rb;
     [SerializeField] TextMeshProUGUI hud;
-    
 
 
     [Header("Plane Stats")]
@@ -24,6 +23,11 @@ public class BetterPlane : MonoBehaviour
     private float roll; // 
     private float pitch; // 
     private float yaw; // 
+
+    void Start()
+    {
+        Physics.gravity = new Vector3(0, -9.81f, 0); // Default gravity
+    }
 
 // 
 private float ResponseModifier 
@@ -61,7 +65,7 @@ private void HandleInputs() {
 private void Update()
 {
     HandleInputs();
-   // UpdateHUD();
+   UpdateHUD();
 }
 
 private void FixedUpdate() {
@@ -74,14 +78,14 @@ private void FixedUpdate() {
     rb.AddForce(Vector3.up * rb.linearVelocity.magnitude * lift);
 }
 
-//private void UpdateHUD() {
+private void UpdateHUD() {
 
         
-       // hud.text = "Throttle: " + throttle.ToString("F0") + "%\n";
-      //  hud.text += "Airspeed: " + (rb.linearVelocity.magnitude * 3.6f).ToString("F0") + "mph\n";
-       // hud.text += "Altitude: " + transform.position.y.ToString("F0") + " m";
+    hud.text = "Throttle: " + throttle.ToString("F0") + "%\n";
+     hud.text += "Airspeed: " + (rb.linearVelocity.magnitude * 3.6f).ToString("F0") + "mph\n";
+    hud.text += "Altitude: " + transform.position.y.ToString("F0") + " m";
 
         
-   // }
+   }
    
 }
