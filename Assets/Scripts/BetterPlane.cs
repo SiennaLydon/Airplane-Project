@@ -24,10 +24,7 @@ public class BetterPlane : MonoBehaviour
     private float pitch; // 
     private float yaw; // 
 
-    void Start()
-    {
-        Physics.gravity = new Vector3(0, -9.81f, 0); // Default gravity
-    }
+    
 
 // 
 private float ResponseModifier 
@@ -82,8 +79,8 @@ private void UpdateHUD() {
 
         
     hud.text = "Throttle: " + throttle.ToString("F0") + "%\n";
-     hud.text += "Airspeed: " + (rb.linearVelocity.magnitude * 3.6f).ToString("F0") + "mph\n";
-    hud.text += "Altitude: " + transform.position.y.ToString("F0") + " m";
+    hud.text += "Airspeed: " + (rb.linearVelocity.magnitude * 3.6f).ToString("F0") + "mph\n";
+    hud.text += "Altitude: " + transform.position.y.ToString("F0") + "m";
 
         
    }
