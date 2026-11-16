@@ -19,17 +19,16 @@ public class BetterPlane : MonoBehaviour
     [Tooltip("How much lift force the plane makes as it goes faster")]
     public float lift = 135f;
 
-    private float throttle; // 
-    private float roll; // 
-    private float pitch; // 
-    private float yaw; // 
+    private float throttle;
+    private float roll; 
+    private float pitch;
+    private float yaw;
 
     
-
-// 
 private float ResponseModifier 
 {
-    get {   
+    get 
+    {   
         return (rb.mass / 10f) * responsiveness;
     }
 }
@@ -41,9 +40,10 @@ private void Awake()
 }
 
 
-private void HandleInputs() {
+private void HandleInputs() 
+{
 
-    // 
+    //
     roll = Input.GetAxis("Roll");
     pitch = Input.GetAxis("Pitch");
     yaw = Input.GetAxis("Yaw");
@@ -61,28 +61,26 @@ private void HandleInputs() {
 
 private void Update()
 {
-    HandleInputs();
+    
    UpdateHUD();
 }
 
-private void FixedUpdate() {
-
+private void FixedUpdate() 
+{
+    HandleInputs();
     //applying force to the plane
     rb.AddForce(-transform.right * maxThrust * throttle);
     rb.AddTorque(transform.up * yaw * ResponseModifier);
     rb.AddTorque(transform.right * pitch * ResponseModifier);
     rb.AddTorque(transform.forward * roll * ResponseModifier);
-    rb.AddForce(Vector3.up * rb.linearVelocity.magnitude * lift);
+    rb.AddForce(Vector3.up * rb.linearVelocity.magnitude * lift); 
 }
 
-private void UpdateHUD() {
-
-        
+private void UpdateHUD() 
+{  
     hud.text = "Throttle: " + throttle.ToString("F0") + "%\n";
     hud.text += "Airspeed: " + (rb.linearVelocity.magnitude * 3.6f).ToString("F0") + "mph\n";
-    hud.text += "Altitude: " + transform.position.y.ToString("F0") + "m";
-
-        
-   }
+    hud.text += "Altitude: " + transform.position.y.ToString("F0") + "m";  
+}
    
 }
