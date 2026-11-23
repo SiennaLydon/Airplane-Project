@@ -14,6 +14,21 @@ public class Checkpoint : MonoBehaviour
     
     [SerializeField] float dead;
 
+
+    [SerializeField] Vector3 CP2;
+    [SerializeField] Vector3 CP3;
+    [SerializeField] Vector3 CP4;
+    [SerializeField] Vector3 CP5;
+    [SerializeField] Vector3 CP6;
+    [SerializeField] Vector3 CP7;
+
+    public int pointsDone = 0;
+
+    public GameObject point;
+
+
+
+
     void Update()
     {
         if (player.transform.position.y < dead)
@@ -22,16 +37,58 @@ public class Checkpoint : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R))
             {
                 player.transform.position = vectorPoint;
-            }
-            
+            } 
         }
 
+        //couyd add another if statement to make dead zone for x and z axis
     }
 
-    private void OnTriggerEnter(Collider other)
+
+
+
+    private void OnTriggerExit(Collider other)
+
     {
-       vectorPoint = player.transform.position;
-       Destroy(other.gameObject);
-       points++;
-    }
-}
+       if (pointsDone == 2)
+       { 
+        vectorPoint = point.transform.position;
+
+        points++;
+        pointsDone++;
+
+        point.transform.position = CP4;
+       }
+
+        else if (pointsDone == 1)
+       { 
+        vectorPoint = point.transform.position;
+
+        points++;
+        pointsDone++;
+
+        point.transform.position = CP3;
+        
+       }
+
+        
+
+        else if (pointsDone == 0)
+       { 
+        vectorPoint = point.transform.position;
+
+        points++;
+        pointsDone++;
+
+        point.transform.position = CP2;
+        
+       }
+        
+       }
+
+
+
+       
+
+    
+       
+     }

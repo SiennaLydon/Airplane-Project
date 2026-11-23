@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: cccda548ad9c10b4f929f06246a556c4
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black rocks
+    second: {fileID: 2100000, guid: dd5492cbc5a1bc440966f2fb5680bffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Gray Contoured Cliff Rock
+    second: {fileID: 2100000, guid: dc631e4c100b2ef4e8b4cae66f25de18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_OBJ.003
+    second: {fileID: 2100000, guid: ec19afb8045e3e94da198293f6d950fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock
+    second: {fileID: 2100000, guid: a0684c151cbfb83408914735d508b799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.002
+    second: {fileID: 2100000, guid: 18e87111198440d41807f94a04ca08ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.005
+    second: {fileID: 2100000, guid: 3fca4814ba27e4d4690106b7ad701423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.007
+    second: {fileID: 2100000, guid: db33fcf9514d23e4e95c4364e34e5386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.008
+    second: {fileID: 2100000, guid: c2904e9e15397ac47bb361ab8c95cb88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.009
+    second: {fileID: 2100000, guid: fb9d33602175d4149acfb22fd1e09536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.010
+    second: {fileID: 2100000, guid: 1c8ceb213ce950f45a6c2d5f71b67401, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.011
+    second: {fileID: 2100000, guid: af5a188b501d7a3489a424a3b08bece4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.012
+    second: {fileID: 2100000, guid: 998a15d8f38a7a842895a79029010114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.013
+    second: {fileID: 2100000, guid: a2219c24f1bacea4e978d4adb2c071fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.014
+    second: {fileID: 2100000, guid: d3dbd5980e3043749bca72cc2f85cae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.015
+    second: {fileID: 2100000, guid: d8ed81e7c57400f40a24310ddaa61423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.016
+    second: {fileID: 2100000, guid: f5cf632e95f2cb04fb593e03f091bd6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.017
+    second: {fileID: 2100000, guid: a993f970cf7425141a17006e0b93b7bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.018
+    second: {fileID: 2100000, guid: d91d3b0bdacce714daf2d14039540b50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.019
+    second: {fileID: 2100000, guid: 2c51b7f1fb5d72944946a2178f298ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.022
+    second: {fileID: 2100000, guid: e60703b4efbe5c4438a52820fe1a814b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.023
+    second: {fileID: 2100000, guid: 8281b68034c64914db8565637bd1cf59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.024
+    second: {fileID: 2100000, guid: c6b57975d512ded4aa96b61eaa85facc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.025
+    second: {fileID: 2100000, guid: c5e720c6353ec244387d89f875b85bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.026
+    second: {fileID: 2100000, guid: 9879a5c0bbe8f0b4f8d6f3b81dd979e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.027
+    second: {fileID: 2100000, guid: 13a648a4774693d45a9e1cec0f365850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.028
+    second: {fileID: 2100000, guid: 112b9f6718592954b9b072215d79cd84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.029
+    second: {fileID: 2100000, guid: aab57c962ae8d9748b9f8b03e8446247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.030
+    second: {fileID: 2100000, guid: 49ba1cf99576c924c94e5239a963116c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.031
+    second: {fileID: 2100000, guid: de3972175b6f8ef4fbb7c3c7418b2c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.032
+    second: {fileID: 2100000, guid: c1576949b832c23449baf0e86c0986aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.033
+    second: {fileID: 2100000, guid: ee8023afa2bd4684e94594a13418e4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.034
+    second: {fileID: 2100000, guid: 5f993d348e400ea48a572f51ea7c3042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.035
+    second: {fileID: 2100000, guid: 470b72b786d5310459ea09bcb9ea4da3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.036
+    second: {fileID: 2100000, guid: b6c6bbf23147f6145951a4faf56c014e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.037
+    second: {fileID: 2100000, guid: 64c071564723aff43a6042eb6eb75f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.038
+    second: {fileID: 2100000, guid: 4306b5470c51a494c9dc355f3fc0a86a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.039
+    second: {fileID: 2100000, guid: 031b582e38ed3494da13269befa87b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.040
+    second: {fileID: 2100000, guid: 3d66ef5b86e526147a5a37f11d63b457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.041
+    second: {fileID: 2100000, guid: bbb2cde536a25f04ab7105ad8252b666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.042
+    second: {fileID: 2100000, guid: 5cba463dd5136e747a911328e965e714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.043
+    second: {fileID: 2100000, guid: a5c05538e9e9f3d4cb51879d075c97f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.044
+    second: {fileID: 2100000, guid: d6dd643f24dd89b4d9b8d079affb599e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.045
+    second: {fileID: 2100000, guid: 9a8a11b2e968bce4a8c2832a462cca95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.046
+    second: {fileID: 2100000, guid: 2aa0992a8117a2d45b724ee104c493d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.047
+    second: {fileID: 2100000, guid: 5cd14b51f9c16c6499499412339c5540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.048
+    second: {fileID: 2100000, guid: f7e3944532203ee4da56b66501793b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.049
+    second: {fileID: 2100000, guid: 9e8e00f631a579d4fabf343e4a682660, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.050
+    second: {fileID: 2100000, guid: 03a43c2bf53af7446bcd732cb36f2c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.051
+    second: {fileID: 2100000, guid: 95a2e29c29a2afc43b0fa5d477559ae9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.052
+    second: {fileID: 2100000, guid: 88111303faefebd41b3672e99748ad59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.053
+    second: {fileID: 2100000, guid: 16a421170efc71f499b0db05d300411f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Angular Weathered Rock.054
+    second: {fileID: 2100000, guid: bf5dea3275052234e9a1fa90314eb1e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: f00af64ebe42ad54dadfc7c153f1a023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: f1332e031b223db4287889419ab8a9bf, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

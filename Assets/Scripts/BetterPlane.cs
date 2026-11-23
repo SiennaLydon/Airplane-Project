@@ -25,6 +25,8 @@ public class BetterPlane : MonoBehaviour
     private float yaw;
 
     
+
+    
 private float ResponseModifier 
 {
     get 
